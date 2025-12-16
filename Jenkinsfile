@@ -23,6 +23,11 @@ pipeline {
                 sh "mvn package"
             }
         }
+        stage('out put'){
+            steps {
+                sh "Every thing executed"
+            }
+        }
     }
 }
 
