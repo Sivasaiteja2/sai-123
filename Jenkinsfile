@@ -25,7 +25,7 @@ pipeline {
         }
         stage('out put'){
             steps {
-                sh "Every thing executed"
+                echo "Every thing executed"
             }
         }
     }
