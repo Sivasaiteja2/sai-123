@@ -12,7 +12,7 @@
 
                 <div class="bg-light border rounded py-3 my-3">
                     <div class="h5 py-3" title="1 - Very easy, 2 - Easy, 3 - Medium, 4 - Difficult, 5 - Very Difficult"
-                        th:text="|Game Level: ${boardgame.level}|">Level</div>
+                        th:text="|Game Level: ${boardgame.level}|">Levels</div>
                     <div class="h5 py-3" th:unless="${boardgame.maxPlayers} == '+'"
                         th:text="|Players: ${boardgame.minPlayers} - ${boardgame.maxPlayers} people|">Players</div>
                     <div class="h5 py-3" th:if="${boardgame.maxPlayers} == '+'"
